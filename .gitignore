@@ -21,11 +21,13 @@ Assets/*
 !Assets/Editor/**
 
 # User-specific files
+*.glb
 *.rsuser
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+Preliminary1_BurstDebugInformation_DoNotShip/**
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
