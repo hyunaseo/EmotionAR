@@ -27,7 +27,7 @@ Assets/*
 *.user
 *.userosscache
 *.sln.docstates
-Preliminary1_BurstDebugInformation_DoNotShip/**
+Preliminary1_BurstDebugInformation_DoNotShip/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
