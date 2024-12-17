@@ -6,9 +6,11 @@ public class TutorialCanvasControl : MonoBehaviour
 {
     // GameObjects 리스트: Inspector에서 0~8번 오브젝트를 할당
     public List<GameObject> tutorialCanvasObjects;
+    public EmotionCanavasControl emotionCanvasControl;
 
     // 현재 활성화된 GameObject의 인덱스
     private int currentIndex = 0;
+    private bool isTutorialEnd = false;
 
     // 초기화
     private void Start()
@@ -23,6 +25,8 @@ public class TutorialCanvasControl : MonoBehaviour
     // 파란 버튼이 눌렸을 때 호출되는 함수
     public void OnBlueButtonPressed()
     {
+        if (isTutorialEnd) return;
+
         // 현재 활성화된 GameObject 비활성화
         tutorialCanvasObjects[currentIndex].SetActive(false);
 
@@ -31,6 +35,8 @@ public class TutorialCanvasControl : MonoBehaviour
         if (currentIndex >= tutorialCanvasObjects.Count)
         {
             currentIndex = -1; // 모든 GameObject 비활성화 상태
+            emotionCanvasControl.isTutorialEnd = true;
+            isTutorialEnd = true;
         }
 
         // 현재 인덱스가 유효하면 해당 GameObject 활성화
@@ -43,6 +49,8 @@ public class TutorialCanvasControl : MonoBehaviour
     // 빨간 버튼이 눌렸을 때 호출되는 함수
     public void OnRedButtonPressed()
     {
+        if (isTutorialEnd) return;
+        
         // 현재가 0번이면 아무 작업도 하지 않음
         if (currentIndex <= 0) return;
 
