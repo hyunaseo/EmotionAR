@@ -6061,7 +6061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1560b7181ab7e204a96baba95f305499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  avatarUrl: https://models.readyplayer.me/675fcc1f5c334415d2bf42b4.glb
+  avatarUrl: https://models.readyplayer.me/6763ce27d8fddfc81abb6b8d.glb
   OnStartEvent:
     m_PersistentCalls:
       m_Calls:
