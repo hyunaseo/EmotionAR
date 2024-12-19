@@ -306,6 +306,11 @@ Transform:
   - {fileID: 1434049173}
   m_Father: {fileID: 2075359724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &422756892 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2266493755489855830, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+  m_PrefabInstance: {fileID: 5922041554429222164}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &452505782
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +342,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2075359725}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &617150851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6968375520549803742, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+  m_PrefabInstance: {fileID: 5922041554429222164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &639261567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2262407803935085007, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+  m_PrefabInstance: {fileID: 5922041554429222164}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &649041264
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,6 +383,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2075359725}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &675042239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2294701965497787567, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+  m_PrefabInstance: {fileID: 5922041554429222164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &855210530 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7451542199676320059, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+  m_PrefabInstance: {fileID: 5922041554429222164}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1076285630
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,6 +549,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 262652255}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1625523058 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8732009169805912259, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+  m_PrefabInstance: {fileID: 5922041554429222164}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1718088514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -601,6 +631,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4453513310108136, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
   m_PrefabInstance: {fileID: 1718088514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1837608304 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5238193870847929416, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+  m_PrefabInstance: {fileID: 5922041554429222164}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2075359721
 PrefabInstance:
@@ -13213,9 +13248,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 18386490473282074, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: tutorialCanvasObjects.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 18386490473282074, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: tutorialCanvasObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1625523058}
+    - target: {fileID: 18386490473282074, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: tutorialCanvasObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 422756892}
+    - target: {fileID: 18386490473282074, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: tutorialCanvasObjects.Array.data[3]
+      value: 
+      objectReference: {fileID: 1837608304}
+    - target: {fileID: 18386490473282074, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: tutorialCanvasObjects.Array.data[4]
+      value: 
+      objectReference: {fileID: 675042239}
+    - target: {fileID: 18386490473282074, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: tutorialCanvasObjects.Array.data[5]
+      value: 
+      objectReference: {fileID: 855210530}
+    - target: {fileID: 18386490473282074, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: tutorialCanvasObjects.Array.data[6]
+      value: 
+      objectReference: {fileID: 639261567}
+    - target: {fileID: 18386490473282074, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: tutorialCanvasObjects.Array.data[7]
+      value: 
+      objectReference: {fileID: 617150851}
     - target: {fileID: 169599467981007360, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 254228673585127637, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1206578123354082618, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_text
+      value: '2. The avatar in front of you  represents you <color="yellow">in the
+        virtual world</color>! '
       objectReference: {fileID: 0}
     - target: {fileID: 1318286571178003376, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_AnchorMax.y
@@ -13240,6 +13316,35 @@ PrefabInstance:
     - target: {fileID: 1318286571178003376, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -28.405
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419965542598818826, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_text
+      value: 'Move various parts of your face, such as your eyebrows, nose, mouth,
+        and eyes. Try smiling or frowning. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1547713566423832322, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1547713566423832322, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1547713566423832322, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1547713566423832322, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1547713566423832322, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1547713566423832322, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1824408029440199955, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_SizeDelta.y
@@ -13284,6 +13389,18 @@ PrefabInstance:
     - target: {fileID: 2294701965497787567, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2464771912649829479, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_text
+      value: "5. Now, let\u2019s try moving <color=\"yellow\">your arms and fingers</color>."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604702639783286219, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.095
+      objectReference: {fileID: 0}
+    - target: {fileID: 2825041549106036722, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_Name
+      value: 1.Info Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 2825041549106036722, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_IsActive
@@ -13361,10 +13478,24 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3179148806083798327, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_text
+      value: '4. It might not work perfectly, which is a limitation of the technology.
+        Any inconvenience caused by this is not the focus of this study. So please
+        proceed as if it works well :) '
+      objectReference: {fileID: 0}
     - target: {fileID: 3255851911186005257, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3571775469241277540, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_text
+      value: 7. The lower body is not tracked
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625305749407151066, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3738196222962645629, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -13389,6 +13520,12 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3812053381504234054, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_text
+      value: "6. Your hands are tracked using sensors in the headset. If your hands
+        move too far outside, they won\u2019t be tracked. Again, please assume that
+        everything works properly and continue the study."
+      objectReference: {fileID: 0}
     - target: {fileID: 3818735305961041233, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -13435,6 +13572,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3830607021596640779, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934841056543096633, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5100874262960221876, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
@@ -13505,6 +13646,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6837761320558666564, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6837761320558666564, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6837761320558666564, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6837761320558666564, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6837761320558666564, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6837761320558666564, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6968375520549803742, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -13517,9 +13682,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 7691536411129085551, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_text
+      value: "3. Let\u2019s take a moment to  <color=\"yellow\">observe</color> your
+        facial expressions. "
+      objectReference: {fileID: 0}
     - target: {fileID: 7733333283895181712, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_SizeDelta.y
       value: 56.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127960612577271128, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8373063632782984818, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_SizeDelta.y
@@ -13528,6 +13702,10 @@ PrefabInstance:
     - target: {fileID: 8732009169805912259, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850089148752810239, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.353
       objectReference: {fileID: 0}
     - target: {fileID: 8860532023675233318, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_SizeDelta.y
@@ -13563,11 +13741,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9098563729556182752, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.36
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9098563729556182752, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.389
+      value: 1.304
       objectReference: {fileID: 0}
     - target: {fileID: 9098563729556182752, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13602,7 +13780,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6117787142354475919, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e5cc8169fdaa9846a889905deba74e8, type: 3}

@@ -95,21 +95,71 @@ public class EmotionCanavasControl : MonoBehaviour
         }
     }
 
-    // 빨간 버튼이 눌렸을 때 호출되는 함수
     public void OnRedButtonPressed()
     {
         if (!isTutorialEnd) return;
-
-        // 이전 단계로 돌아가기
-        if (previousStep != -1)
+        
+        // 현재 단계가 0보다 크다면 이전 단계로 돌아가기
+        if (currentStep > 0)
         {
-            currentStep = previousStep;
-            previousStep = -1;
-        }
+            currentStep--;
 
-        // 상태 복원
-        RestorePreviousState();
+            switch (currentStep)
+            {
+                case 0:
+                    Neutral.SetActive(true);
+                    FaceOff.SetActive(true);
+                    BodyOff.SetActive(true);
+                    break;
+
+                case 1:
+                    FaceOn.SetActive(false);
+                    Neutral.SetActive(true);
+                    break;
+
+                case 2:
+                    BodyOn.SetActive(false);
+                    FaceOn.SetActive(true);
+                    break;
+
+                case 3:
+                    DeactivateLastActivatedGameObject();
+                    BodyOn.SetActive(true);
+                    break;
+
+                case 4:
+                    FaceOn.SetActive(false);
+                    ActivateLastDeactivatedGameObject();
+                    break;
+
+                case 5:
+                    BodyOn.SetActive(false);
+                    FaceOn.SetActive(true);
+                    break;
+
+                case 6:
+                    Finish.SetActive(false);
+                    ActivateLastDeactivatedGameObject();
+                    BodyOn.SetActive(true);
+                    break;
+            }
+        }
     }
+
+    // 마지막으로 비활성화된 GameObject를 다시 활성화하는 함수
+    private void ActivateLastDeactivatedGameObject()
+    {
+        if (remainingEmotions.Count < Emotions.Length)
+        {
+            int lastIndex = Emotions.Length - remainingEmotions.Count - 1;
+            if (lastIndex >= 0 && lastIndex < Emotions.Length)
+            {
+                Emotions[lastIndex].SetActive(true);
+                remainingEmotions.Insert(0, lastIndex);
+            }
+        }
+    }
+
 
     // 마지막으로 활성화된 GameObject를 비활성화하는 함수
     private void DeactivateLastActivatedGameObject()
@@ -138,23 +188,6 @@ public class EmotionCanavasControl : MonoBehaviour
             gameObjectIndex = remainingEmotions[randomIndex];
             Emotions[gameObjectIndex].SetActive(true);
             remainingEmotions.RemoveAt(randomIndex);
-        }
-    }
-
-    // 이전 상태로 복원하는 함수
-    private void RestorePreviousState()
-    {
-        // 1~6번 GameObject가 모두 활성화된 상태라면, 마지막 상태로 복원
-        DeactivateAllObjects();
-
-        // 필요에 따라 상태 복원
-        if (currentStep == 0)
-        {
-            Neutral.SetActive(true);
-        }
-        else if (currentStep == 1)
-        {
-            FaceOn.SetActive(true);
         }
     }
 }
