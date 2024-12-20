@@ -860,8 +860,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_text
-      value: "3. Let\u2019s take a moment to  <color=\"yellow\">observe</color> your
-        facial expressions. "
+      value: "3. \uC544\uBC14\uD0C0\uC758 \uC5BC\uAD74\uB9CC \uC6B0\uC120 \uAD6C\uACBD\uD574\uBCF4\uB294
+        \uC2DC\uAC04\uC744 \uC7A0\uC2DC \uAC00\uC838\uBCFC\uAE4C\uC694?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -889,8 +897,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4715793228904550096, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_text
-      value: 'Move various parts of your face, such as your eyebrows, nose, mouth,
-        and eyes. Try smiling or frowning. '
+      value: "\uB208\uC379, \uCF54, \uB208, \uC785 \uB4F1\uC744 \uC790\uC720\uB86D\uAC8C
+        \uC6C0\uC9C1\uC5EC \uBCF4\uC138\uC694. \uC6C3\uC5B4\uBCF4\uAE30\uB3C4 \uD558\uACE0
+        \uCC21\uADF8\uB824\uBCF4\uAE30\uB3C4 \uD558\uB294 \uB4F1 \uC5EC\uB7EC \uD45C\uC815\uC744
+        \uC9C0\uC5B4\uBCF4\uC138\uC694. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4715793228904550096, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 4715793228904550096, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6174058178742095231, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1060,7 +1078,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_text
-      value: 7. The lower body is not tracked
+      value: "7. \uD558\uBC18\uC2E0\uC744 \uD2B8\uB798\uD0B9\uC774 \uC798 \uB418\uC9C0
+        \uC54A\uC544\uC694. \uADF8\uCE58\uB9CC \uAC78\uC5B4\uB2E4\uB2C8\uBA74 \uC544\uBC14\uD0C0\uAC00
+        \uB530\uB77C\uB2E4\uB2C8\uAE34 \uD569\uB2C8\uB2E4. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1770,9 +1798,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_text
-      value: "6. Your hands are tracked using sensors in the headset. If your hands
-        move too far outside, they won\u2019t be tracked. Again, please assume that
-        everything works properly and continue the study."
+      value: "6. \uC2E4\uD5D8\uC5D0\uC11C\uB294 \uAC00\uB2A5\uD55C \uB2E4\uC591\uD55C
+        \uBC14\uB514 \uC81C\uC2A4\uCC98\uB97C \uC0AC\uC6A9\uD558\uBA70 \uCC38\uC5EC\uD574
+        \uC8FC\uC138\uC694. \uAE30\uAE30\uC758 \uD558\uB2E8\uBD80 \uC13C\uC11C\uB97C
+        \uD1B5\uD574\uC11C \uD314\uC744 \uD2B8\uB798\uD0B9\uD558\uAE30 \uB54C\uBB38\uC5D0,
+        \uC774\uAC8C \uACFC\uB3C4\uD558\uAC8C \uBA40\uC5B4\uC9C0\uBA74 \uC798 \uC548
+        \uC7A1\uD790 \uC218\uB3C4 \uC788\uC5B4\uC694."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2116,8 +2155,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_text
-      value: '1. Press the <color="blue">right button</color> to move to the next
-        step. '
+      value: "1. \uBC84\uD2BC\uC744 \uC0AC\uC6A9\uD574\uC11C \uB2E4\uC74C/\uC774\uC804\uC73C\uB85C
+        \uC774\uB3D9\uD558\uC2DC\uBA74 \uB429\uB2C8\uB2E4. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2470985506903986675, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2133,7 +2184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 32.81
+      value: 32.21
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2141,7 +2192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28.405
+      value: -28.105
       objectReference: {fileID: 0}
     - target: {fileID: 6174058178742095231, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2197,7 +2248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8760001627258839191, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 56.81
+      value: 56.21
       objectReference: {fileID: 0}
     - target: {fileID: 8760001627258839191, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2279,11 +2330,31 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1585557255897221575, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_text
-      value: '4. It might not work perfectly, which is a limitation of the technology.
-        Any inconvenience caused by this is not the focus of this study. So please
-        proceed as if it works well :) '
+      value: "4. \uC544\uBC14\uD0C0\uC758 \uC5BC\uAD74\uC758 \uD45C\uD604\uB825\uC774
+        \uC0DD\uAC01\uBCF4\uB2E4 \uB192\uC9C0 \uC54A\uC744\uAC70\uC608\uC694. \uADF8\uB798\uC11C
+        \uC6D0\uD558\uB294 \uD45C\uC815\uC744 \uC9D3\uAE30 \uC704\uD574\uC11C\uB294
+        \uC5BC\uAD74\uC744 \uC801\uADF9\uC801\uC73C\uB85C \uC6C0\uC9C1\uC5EC\uC57C\uD574\uC694.
+        \uC774\uAC74 \uAE30\uC220\uC758 \uD55C\uACC4\uC774\uAE30 \uB54C\uBB38\uC5D0,
+        \uC774 \uC5F0\uAD6C\uAC00 \uB2E4\uB8E8\uB294 \uBB38\uC81C\uC5D0 \uD3EC\uD568\uB418\uC9C0
+        \uC54A\uC2B5\uB2C8\uB2E4. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2470985506903986675, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2299,7 +2370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 131.23
+      value: 112.7
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2307,7 +2378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -77.615
+      value: -68.35
       objectReference: {fileID: 0}
     - target: {fileID: 6174058178742095231, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2363,7 +2434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8760001627258839191, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 155.23
+      value: 136.7
       objectReference: {fileID: 0}
     - target: {fileID: 8760001627258839191, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2938,9 +3009,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_text
-      value: Now, we will begin the experiment where you express <color="yellow">seven
-        emotions, including neutral</color>, using <color="red">facial expressions</color>
-        and <color="green">a combination of facial expressions with body gestures</color>!
+      value: "\uC774\uC81C \uC2E4\uD5D8\uC744 \uC2DC\uC791\uD574\uBCFC\uD150\uB370\uC694,
+        \uB2F9\uC2E0\uC740 <color=\"yellow\">\uC911\uB9BD\uC744 \uD3EC\uD568\uD55C
+        7\uAC00\uC9C0 \uAC10\uC815\uC5D0 \uB300\uD574\uC11C \uC2E4\uD5D8\uD574\uBCFC\uAC70\uC608\uC694!</color>.
+        \uAC01\uAC01 <color=\"red\">\uC5BC\uAD74 \uD45C\uC815</color>\uACFC <color=\"green\">\uC5BC\uAD74
+        \uD45C\uC815 & \uBC14\uB514 \uC81C\uC2A4\uCC98\uC758 \uC870\uD569</color>\uC73C\uB85C\uC694!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3104,7 +3185,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_text
-      value: "5. Now, let\u2019s try moving <color=\"yellow\">your arms and fingers</color>."
+      value: "5. \uC774\uC81C \uBC14\uB514 \uC81C\uC2A4\uCC98\uC758 \uB300\uBD80\uBD84\uC744
+        \uCC28\uC9C0\uD558\uB294 \uD314\uACFC \uC190\uAC00\uB77D\uC758 \uC6C0\uC9C1\uC784\uC744
+        \uD14C\uC2A4\uD2B8 \uD574\uBCFC\uAE4C\uC694?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2470985506903986675, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3120,7 +3215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 32.81
+      value: 32.21
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3128,11 +3223,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28.405
+      value: -28.105
       objectReference: {fileID: 0}
     - target: {fileID: 4715793228904550096, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_text
-      value: Stretch your arms forward and move your fingers, and others!
+      value: "\uD314\uC744 \uC55E\uC73C\uB85C \uBED7\uC5B4\uBCF4\uAE30\uB3C4 \uD558\uACE0
+        \uC790\uC720\uB86D\uAC8C \uC6C0\uC9C1\uC5EC\uBCF4\uC138\uC694. \uD654\uC774\uD305\uD558\uB294
+        \uD3EC\uC988\uB97C \uCDE8\uD574\uBCF4\uAE30\uB3C4 \uD558\uACE0\uC694! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4715793228904550096, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 4715793228904550096, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2470985506903986675, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 4715793228904550096, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6174058178742095231, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3148,7 +3257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6174058178742095231, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 25.79
+      value: 25.31
       objectReference: {fileID: 0}
     - target: {fileID: 6174058178742095231, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3156,7 +3265,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6174058178742095231, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -61.705
+      value: -60.864998
       objectReference: {fileID: 0}
     - target: {fileID: 8760001627258839191, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_Pivot.x
@@ -3188,7 +3297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8760001627258839191, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 86.600006
+      value: 85.52
       objectReference: {fileID: 0}
     - target: {fileID: 8760001627258839191, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3349,8 +3458,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_text
-      value: '2. The avatar in front of you  represents you <color="yellow">in the
-        virtual world</color>! '
+      value: "2. \uC55E\uC5D0 \uBCF4\uC774\uB294 \uC544\uBC14\uD0C0\uB294 \uB2F9\uC2E0\uC744
+        \uAC00\uC0C1\uD658\uACBD\uC5D0\uC11C \uB098\uD0C0\uB0B4\uB294 \uC544\uBC14\uD0C0\uC785\uB2C8\uB2E4. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 4767a6a24b8d84e4aa36f7a07e51e6ee, type: 2}
+    - target: {fileID: 3883748829638756238, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3366,7 +3483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 49.21
+      value: 48.31
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3374,7 +3491,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3949429003518040046, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -36.605
+      value: -36.155
       objectReference: {fileID: 0}
     - target: {fileID: 6174058178742095231, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3430,7 +3547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8760001627258839191, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 73.21
+      value: 72.31
       objectReference: {fileID: 0}
     - target: {fileID: 8760001627258839191, guid: 67bf9ec6fd4b04243b7a5f61a123c62e, type: 3}
       propertyPath: m_LocalPosition.x

@@ -9,7 +9,7 @@ public class TutorialCanvasControl : MonoBehaviour
     public EmotionCanavasControl emotionCanvasControl;
 
     // 현재 활성화된 GameObject의 인덱스
-    private int currentIndex = 0;
+    public int currentIndex = 0;
     private bool isTutorialEnd = false;
 
     // 초기화
