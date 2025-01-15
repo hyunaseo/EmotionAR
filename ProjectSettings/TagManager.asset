@@ -3,20 +3,38 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Locomotion
+  - PassThrough
+  - PassThroughButton
+  - LocoButton
+  - LocoText
+  - QDSUISharedThemeColor
+  - QDSUIToggleButton
+  - QDSUIIcon
+  - QDSUITextSecondaryColor
+  - QDSUIBorderlessButton
+  - QDSUISecondaryButton
+  - QDSUIAccentColor
+  - QDSUITooltip
+  - QDSUIToggleBorderlessButton
+  - SamplesInfoPanel
+  - 'Formative Study  '
+  - '#1 Emotion Wheel'
+  - '#2 Gesture Grid'
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - HiddenMesh
   - Water
   - UI
   - 
+  - MyAvatar
   - 
   - 
-  - 
-  - 
-  - 
+  - Character
+  - MirroredCharacter
   - 
   - 
   - 

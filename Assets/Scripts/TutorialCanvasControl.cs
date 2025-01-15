@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class TutorialCanvasControl : MonoBehaviour
 {
-    // GameObjects 리스트: Inspector에서 0~8번 오브젝트를 할당
     public List<GameObject> tutorialCanvasObjects;
-    public EmotionCanavasControl emotionCanvasControl;
-
-    // 현재 활성화된 GameObject의 인덱스
+    
     public int currentIndex = 0;
     private bool isTutorialEnd = false;
 
-    // 초기화
     private void Start()
     {
         // 모든 GameObject를 비활성화하고 첫 번째(0번)만 활성화
@@ -22,7 +18,6 @@ public class TutorialCanvasControl : MonoBehaviour
         }
     }
 
-    // 파란 버튼이 눌렸을 때 호출되는 함수
     public void OnBlueButtonPressed()
     {
         if (isTutorialEnd) return;
@@ -35,7 +30,6 @@ public class TutorialCanvasControl : MonoBehaviour
         if (currentIndex >= tutorialCanvasObjects.Count)
         {
             currentIndex = -1; // 모든 GameObject 비활성화 상태
-            emotionCanvasControl.isTutorialEnd = true;
             isTutorialEnd = true;
         }
 
